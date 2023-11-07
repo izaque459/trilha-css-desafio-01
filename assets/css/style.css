@@ -1,6 +1,7 @@
 *{
     margin: 0;
-
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 body{
@@ -12,8 +13,6 @@ body{
 
 .banner {
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
   border-bottom: 5px solid #33A8DB;
   
 }
@@ -29,12 +28,15 @@ body{
 }
 
 main{
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
 main #transform-world{
     text-align: left;
-    height: 200px;
+    height: 300px;
+    border-bottom: 2px solid #33A8DB;
     background-image: url("../images/woman-code.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,5 +45,7 @@ main #transform-world{
 }
 
 footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
