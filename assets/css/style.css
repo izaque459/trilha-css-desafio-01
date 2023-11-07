@@ -12,8 +12,10 @@ body{
 }
 
 button{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: transparent;
     color:#33A8DB;
     text-transform: uppercase;
