@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 body{
@@ -9,6 +9,15 @@ body{
     color: #33A8DB;
     font-family: sans-serif; 
 
+}
+
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    color:#33A8DB;
+    text-transform: uppercase;
+    border: 1px solid #33A8DB;
 }
 
 .banner {
@@ -28,6 +37,7 @@ body{
 }
 
 .banner-content p{
+    
     color: white;
 }
 
