@@ -6,7 +6,42 @@
 body{
     background-color: black;
     color: #33A8DB;
-    text-align: center;
     font-family: sans-serif; 
 
+}
+
+.banner {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #33A8DB;
+  
+}
+
+.banner-content{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../images/banner.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+main{
+    text-align: center;
+}
+
+main #transform-world{
+    text-align: left;
+    box-sizing: content-box;
+    background-image: url("../images/woman-code.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+footer{
+    text-align: center;
 }
