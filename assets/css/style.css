@@ -13,7 +13,7 @@ body{
 h1{
     text-transform: uppercase;
     font-size: 45px;
-    font-weight: bold;
+    font-weight: 800;
 
 }
 
@@ -21,10 +21,6 @@ h2{
     text-transform: uppercase;
     font-size: 35px;
     letter-spacing: 10px;
-}
-
-p{
-    white-space: break-spaces;
 }
 
 button{
@@ -88,11 +84,6 @@ main{
     padding-bottom: 30px;
     height: 300px;
     width: auto;
-    text-align:left;
-    text-transform: lowercase;
-    text-indent: 60px;
-    font-size: 45px;
-    color:white;
     border-bottom: 2px solid #33A8DB;
     background-image: url("../images/woman-code.png");
     background-size: cover;
@@ -101,6 +92,14 @@ main{
     background-attachment: fixed;
 }
 
+main #transform-world p{
+    max-width: 250px;
+    font-weight: 900;
+    text-transform: lowercase;
+    text-shadow: 2px 3px 1px grey;
+    font-size: 35px;
+    color:white;
+}
 
 main #professional-challenges p{
     color: white;
@@ -114,4 +113,5 @@ footer{
 
 footer a{
     color:#33A8DB;
+    font-weight: bold;
 }
