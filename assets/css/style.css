@@ -66,6 +66,12 @@ main .modules-list{
     color:white;
 }
 
+main .modules-list .module{
+   /* max-width: 500px;*/
+    border-radius: 25px;
+    border:1px solid #33A8DB;
+}
+
 main .modules-list span{
     color:#33A8DB;
 }
@@ -84,6 +90,7 @@ main{
     padding-bottom: 30px;
     height: 300px;
     width: auto;
+    border-top: 2px solid #33A8DB;
     border-bottom: 2px solid #33A8DB;
     background-image: url("../images/woman-code.png");
     background-size: cover;
@@ -96,7 +103,7 @@ main #transform-world p{
     max-width: 250px;
     font-weight: 900;
     text-transform: lowercase;
-    text-shadow: 2px 3px 1px grey;
+    text-shadow: 3px 1px 1px #33A8DB;
     font-size: 35px;
     color:white;
 }
