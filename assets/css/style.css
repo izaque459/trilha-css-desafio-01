@@ -10,6 +10,17 @@ body{
     font-family: sans-serif; 
 
 }
+h1{
+    text-transform: uppercase;
+    font-size: 45px;
+
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    
+}
 
 button{
     padding-top: 15px;
@@ -19,6 +30,7 @@ button{
     background-color: transparent;
     color:#33A8DB;
     text-transform: uppercase;
+    font-size:20px;
     border: 1px solid #33A8DB;
 }
 
@@ -66,8 +78,10 @@ main #transform-world{
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 30px;
-   padding-bottom: 30px;
-    text-align: left;
+    padding-bottom: 30px;
+    text-align:left;
+    text-transform: lowercase;
+    font-size: 45px;
     color:white;
     height: 300px;
     border-bottom: 2px solid #33A8DB;
