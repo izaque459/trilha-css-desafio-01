@@ -67,9 +67,15 @@ main .modules-list{
 }
 
 main .modules-list .module{
-   /* max-width: 500px;*/
-    border-radius: 25px;
-    border:1px solid #33A8DB;
+    /*conteudo copiado da solução apresentada*/
+    color: white;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 1px solid #33A8DB;
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
 }
 
 main .modules-list span{
@@ -100,7 +106,7 @@ main{
 }
 
 main #transform-world p{
-    max-width: 250px;
+    max-width: 250px;/*copiado da solução apresentada*/
     font-weight: 900;
     text-transform: lowercase;
     text-shadow: 3px 1px 1px #33A8DB;
