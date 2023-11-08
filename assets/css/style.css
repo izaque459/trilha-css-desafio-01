@@ -16,6 +16,17 @@ h1{
     font-weight: 800;
 
 }
+.logo{
+    /*conteudo copiado da solucao*/
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .2);
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
 
 h2{
     text-transform: uppercase;
@@ -68,7 +79,7 @@ main .modules-list{
 
 main .modules-list .module{
     /*conteudo copiado da solução apresentada*/
-    color: white;
+  color: white;
   width: 530px;
   margin: 0 auto 24px;
   border: 1px solid #33A8DB;
